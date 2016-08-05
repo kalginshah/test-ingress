@@ -32,7 +32,7 @@ spec:
         run: test-ingress-node-1
     spec:
       containers:
-      - image: gcr.io/altai-pro/test-ingress
+      - image: gcr.io/$your-project/test-ingress
         imagePullPolicy: Always
         name: test-ingress-node-1
         ports:
